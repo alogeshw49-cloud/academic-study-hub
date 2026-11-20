@@ -360,7 +360,7 @@ mark{background:var(--mark);color:inherit;border-radius:3px;padding:0 1px}
 <script>
 (function(root){
 "use strict";
-var APP_NAME="CW3551", APP_VERSION="1.0.0", SCHEMA_VERSION="1.0.0", STORAGE_VERSION=1, NS="ash:v1:";
+var APP_NAME="CW3551", APP_VERSION="1.0.0", SCHEMA_VERSION="1.0.0", STORAGE_VERSION=2, NS="cw3551:v1:";
 
 /* =====================================================================
    UTILITIES
@@ -1293,6 +1293,7 @@ function bindEvents(){
 
 /* ---- Boot ---- */
 function boot(){
+  try{for(var k in localStorage){if(k.indexOf('ash:')===0)localStorage.removeItem(k);}}catch(e){}
   Store.migrate();
   UI.ui=Store.get('ui',{})||{};if(UI.ui&&UI.ui.subjectId&&UI.ui.subjectId!=='CW3551'){UI.ui.last='#/';UI.ui.subjectId='CW3551';UI.ui.unitId=null;UI.ui.section=null;saveUI();}UI.res=Store.get('resources',[])||[];
   var seed=null;try{seed=JSON.parse($('seed-data').textContent);}catch(e){seed=null;}
