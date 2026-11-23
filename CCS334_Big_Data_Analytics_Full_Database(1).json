@@ -1,0 +1,1751 @@
+{
+  "subject_code": "CCS334",
+  "subject_name": "Big Data Analytics",
+  "university": "Anna University",
+  "regulation": "2021",
+  "section": "Part B",
+  "marks": 13,
+  "total_units": 5,
+  "total_questions": 20,
+  "subtopics_per_question": 7,
+  "total_subtopics": 140,
+  "database_version": "1.0",
+  "content_integrity": {
+    "theory_policy": "Preserve supplied theory content; no intentional paraphrasing or shortening.",
+    "image_policy": "Preserve the supplied image URLs exactly.",
+    "program_policy": "Programs are stored separately for the Program Panel. Safe simplification is applied only when behavior and output remain unchanged.",
+    "mapping_policy": "Use the supplied master subtopic JSON as the authoritative mapping and ordering."
+  },
+  "units": [
+    {
+      "unit_number": 1,
+      "unit_name": "Understanding Big Data",
+      "questions": [
+        {
+          "question_id": "U1_Q1",
+          "topic": "Big Data Ecosystem – Bus Transport",
+          "question": null,
+          "subtopics": [
+            "Definition of Big Data Ecosystem",
+            "Types of Data Generated",
+            "Data Collection Sources",
+            "Big Data Processing Technologies",
+            "Big Data Lifecycle",
+            "Key Roles and Responsibilities",
+            "Big Data Ecosystem Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Big Data Ecosystem",
+                "content": " A Big Data Ecosystem is a collection of technologies, tools and processes used to collect, store, process and analyze large volumes of data. It helps organizations make better decisions using structured, semi-structured and unstructured data."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Types of Data Generated",
+                "content": "The bus transport system generates three types of data:\n- Structured Data: Bus route maps, GPS coordinates and vehicle details.\n- Semi-Structured Data: GPS logs, sensor records and XML/JSON files.\n- Unstructured Data: CCTV videos, traffic images and audio recordings."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Data Collection Sources",
+                "content": "- Bus Route Maps: Provide route numbers, stops and distance information.\n- Inductive Loop Detectors: Measure vehicle count and traffic density.\n- CCTV Cameras: Capture traffic conditions, accidents and road congestion.\n- GPS Updates: Provide real-time bus location, speed and arrival time."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Big Data Processing Technologies",
+                "content": "- Apache Kafka: Collects real-time sensor and GPS data.\n- Hadoop HDFS: Stores large volumes of transport data.\n- Apache Spark: Processes real-time and historical data.\n- Hive: Performs data querying and analysis.\n- Machine Learning: Predicts traffic congestion and bus delays."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Big Data Lifecycle",
+                "content": "- Data Generation: Data is generated from GPS, CCTV and sensors.\n- Data Collection: Data is collected through ingestion tools.\n- Data Storage: Data is stored in HDFS or cloud storage.\n- Data Processing: Spark processes collected data.\n- Data Analysis: Analytics identifies traffic patterns and delays.\n- Data Visualization: Results are displayed using dashboards."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Key Roles and Responsibilities",
+                "content": "- Data Engineer: Collects and manages data pipelines.\n- Data Scientist: Develops predictive models.\n- Data Analyst: Identifies traffic patterns and delays.\n- System Administrator: Maintains storage and infrastructure.\n- Transport Manager: Uses analytical results for decision-making."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Big Data Ecosystem Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nDATA SOURCES (GPS, CCTV, Sensors, Route Map) → DATA COLLECTION (Kafka) → DATA STORAGE (HDFS) → DATA PROCESSING (Spark) → DATA ANALYTICS (Machine Learning) → VISUALIZATION (Dashboard) → OPTIMIZED BUS TRANSPORT.",
+                "image_url": "https://images.openai.com/static-rsc-4/VNTi2ciLvHLxNrSJHWskJ6GhbsNqVOZbGSAble5PoqfojoLzDVi5kxXLR6f9EjwZhNmiWZGGuD7LsxRgnlDFFdqhzTiWlLcdq2SrbEmvHq6rDWiAfPtxipeEGOgpyA93jAy3N07HSr510SeqDLNxt7XxwHs6AnDC1m8h9viJ2-OjZ-EjO-yCyZJCX3szcXoJ?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U1_Q2",
+          "topic": "Big Data Characteristics and Growth",
+          "question": null,
+          "subtopics": [
+            "Definition of Big Data",
+            "Characteristics of Big Data (5 Vs)",
+            "Convergence of Key Technologies",
+            "Business Trends Contributing to Growth",
+            "Big Data Technologies and Tools",
+            "Real-Time Applications and Examples",
+            "Big Data Characteristics Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Big Data",
+                "content": "Big Data refers to extremely large and complex datasets that cannot be efficiently processed using traditional data processing systems. It requires advanced technologies to store, manage and analyze data."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Characteristics of Big Data (5 Vs)",
+                "content": "- Volume: Huge amount of data generated.\n- Velocity: Speed at which data is generated and processed.\n- Variety: Different types of data.\n- Veracity: Accuracy and reliability of data.\n- Value: Useful information obtained from data."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Convergence of Key Technologies",
+                "content": "- Cloud Computing: Provides scalable storage and computing.\n- Internet of Things (IoT): Generates continuous sensor data.\n- Social Media: Produces large volumes of user-generated data.\n- Artificial Intelligence: Supports intelligent data analysis.\n- Distributed Computing: Processes data across multiple systems."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Business Trends Contributing to Growth",
+                "content": "- Digital Transformation: Businesses move towards digital platforms.\n- E-Commerce: Generates customer and transaction data.\n- Mobile Applications: Produce location and usage data.\n- Personalization: Provides customer-specific recommendations.\n- Real-Time Decision Making: Supports faster business decisions."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Big Data Technologies and Tools",
+                "content": "Technology — Purpose:\n- Hadoop — Distributed storage and processing.\n- Spark — Fast data processing.\n- Kafka — Real-time data collection.\n- Hive — Data querying.\n- NoSQL — Flexible data storage.\n- MongoDB — Document database."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Real-Time Applications and Examples",
+                "content": "- Healthcare: Disease prediction and patient monitoring.\n- Banking: Fraud detection.\n- Transportation: Traffic prediction.\n- E-Commerce: Product recommendations.\n- Social Media: Customer behaviour analysis.\n- Weather Forecasting: Climate prediction."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Big Data Characteristics Diagram",
+                "content": "Exam-friendly block diagram:\nBIG DATA → Volume, Velocity, Variety, Veracity, Value → BUSINESS INSIGHTS.",
+                "image_url": "https://images.openai.com/static-rsc-4/emrpzbejteZ1vqyLR1JBdUwfnw2Y-brxgRi-uYbH9XSO7Qb4Zzvf-i6Wyr-OBRvUqlpj6JAh7H_47C_MvaS2wsVasmXcxd6z_FQAbAXtWfmQT2u529s0ZwIrjcxa7_BPgifm3ekPY6yIKNus5LQfxWc47dVgvFl_i1Q5rGVGjXK6UgZVsI0ZCOqYlRQxwjvw?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U1_Q3",
+          "topic": "Hadoop Ecosystem",
+          "question": null,
+          "subtopics": [
+            "Definition of Hadoop Ecosystem",
+            "Hadoop Core Components",
+            "Hadoop Distributed Storage",
+            "Hadoop Data Processing",
+            "Hadoop Ecosystem Tools",
+            "Applications of Hadoop",
+            "Hadoop Ecosystem Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Hadoop Ecosystem",
+                "content": "Hadoop Ecosystem is a collection of open-source tools and technologies used to store, process and analyze large datasets across distributed computer systems. It provides scalability, fault tolerance and distributed processing."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Hadoop Core Components",
+                "content": "- Hadoop Common: Provides common libraries and utilities.\n- HDFS: Stores data across multiple machines.\n- YARN: Manages cluster resources and job scheduling.\n- MapReduce: Processes large datasets in parallel."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Hadoop Distributed Storage",
+                "content": "- HDFS (Hadoop Distributed File System) stores large files across multiple DataNodes.\n- NameNode: Maintains file system metadata.\n- DataNode: Stores actual data blocks.\n- Block Replication: Creates multiple copies of data.\n- Fault Tolerance: Recovers data when a node fails."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Hadoop Data Processing",
+                "content": "- MapReduce processes large datasets using two major functions:\n- Mapper: Converts input data into intermediate key-value pairs.\n- Reducer: Processes grouped values and generates final output.\n- YARN allocates resources and manages execution."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Hadoop Ecosystem Tools",
+                "content": "Tool — Function:\n- Pig — Data analysis using Pig Latin.\n- Hive — SQL-like data querying.\n- HBase — NoSQL database.\n- Sqoop — Transfers data between RDBMS and Hadoop.\n- Flume — Collects log data.\n- Oozie — Workflow scheduling.\n- ZooKeeper — Distributed coordination."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Applications of Hadoop",
+                "content": "- Banking: Fraud detection.\n- Healthcare: Medical data analysis.\n- E-Commerce: Customer behaviour analysis.\n- Social Media: Large-scale data processing.\n- Telecommunication: Network log analysis.\n- Retail: Sales forecasting."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Hadoop Ecosystem Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nDATA SOURCES → DATA INGESTION (Sqoop, Flume) → HDFS → YARN → MapReduce → HIVE/PIG/HBASE → DATA ANALYTICS → FINAL OUTPUT.",
+                "image_url": "https://images.openai.com/static-rsc-4/FhmM07x1Koz9VIbAUSCUYTIHNjp_vur0ZLZiEw-iWgC3DdCL0fnOoqk0Z4QXtfQMXR2WiEuVKxdEfGnshPfnLd37NhiuRg-i6GhRHLlXZtx9QnDMj3YfK_qJBifh-X2b8NWdlVimSTtWSCmG3YZaqpQFrMGUA_bVKBz-f4LcVhV_ja_YyM-P7YKHMwh946QI?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U1_Q4",
+          "topic": "Structured and Unstructured Data",
+          "question": null,
+          "subtopics": [
+            "Definition of Structured and Unstructured Data",
+            "Characteristics of Structured Data",
+            "Characteristics of Unstructured Data",
+            "Comparison Between Data Types",
+            "Crowdsourcing Analytics",
+            "Inter-Firewall and Trans-Firewall Analytics",
+            "Data Classification Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Structured and Unstructured Data",
+                "content": "Structured Data: Data organized in a predefined format, usually rows and columns.\nUnstructured Data: Data that does not follow a predefined tabular structure.\nExamples: Database records, images, videos and documents."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Characteristics of Structured Data",
+                "content": "- Organized in rows and columns.\n- Follows a predefined schema.\n- Easy to search and query.\n- Stored in relational databases.\n- Supports SQL operations.\nExamples: Student records, bank transactions and employee details."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Characteristics of Unstructured Data",
+                "content": "- Does not follow a fixed schema.\n- Contains complex data formats.\n- Difficult to process using traditional databases.\n- Requires advanced processing tools.\n- Stored in data lakes and distributed storage systems.\nExamples: Images, videos, emails, audio and social media posts."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Comparison Between Data Types",
+                "content": "Structured Data vs Unstructured Data:\n- Fixed schema vs No fixed schema.\n- Rows and columns vs Different formats.\n- Easy to query vs Complex to query.\n- SQL databases vs NoSQL/Data Lakes.\n- Highly organized vs Less organized.\n- Example: Tables vs Videos."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Crowdsourcing Analytics",
+                "content": "Crowdsourcing Analytics is the process of collecting data, ideas and contributions from a large group of people through online platforms.\nWorking: Collect information from users; store the collected data; analyze user contributions; identify patterns and trends; generate useful insights.\nExample: Customer reviews and online surveys."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Inter-Firewall and Trans-Firewall Analytics",
+                "content": "Inter-Firewall Analytics:\n- Combines and analyzes data across organizational boundaries.\n- Supports collaboration between different organizations.\n- Example: Data sharing between banks and financial institutions.\n\nTrans-Firewall Analytics:\n- Uses data that crosses the organization's firewall, combining internal and external data.\n- Helps organizations gain additional business insights.\n- Example: Combining internal sales data with external market trends and social media data."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Data Classification Diagram",
+                "content": "Exam-friendly block diagram:\nBIG DATA → STRUCTURED DATA (Tables, Records, SQL) / SEMI-STRUCTURED DATA (JSON, XML, Logs) / UNSTRUCTURED DATA (Images, Videos, Audio) → DATA ANALYTICS.",
+                "image_url": "https://images.openai.com/static-rsc-4/7LVYQPQeXyzYqmUVgO4RTmgsgnPCiOD0wZXUupSUVoIXse-ziDeNSsjZuRaq80rYD1YhE_HkVc_CMhQ9q6FhDz20I1HkHmolrrwkjQ3R_pP9RJ8v-7-bysbE3tlGuZqQkUbUMGzgwoTKPfP6gvPejBBsl9LM914nEPGte0jaUY__MFmdFfGk3Bw27bkvv2T5?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "unit_name": "NoSQL Data Management",
+      "questions": [
+        {
+          "question_id": "U2_Q1",
+          "topic": "NoSQL Distribution Models and CAP Theorem",
+          "question": null,
+          "subtopics": [
+            "Definition of NoSQL Database",
+            "NoSQL Distribution Models",
+            "Master-Slave Replication",
+            "Master-Master Replication",
+            "CAP Theorem",
+            "Consistency and Availability Trade-offs",
+            "NoSQL Distribution Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of NoSQL Database",
+                "content": "NoSQL (Not Only SQL) is a non-relational database used to store and manage large volumes of structured, semi-structured and unstructured data.\nIt provides flexible schema, horizontal scalability, high availability and distributed data storage.\nExamples: MongoDB, Cassandra, HBase and Redis."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "NoSQL Distribution Models",
+                "content": "NoSQL databases distribute data across multiple servers to improve performance and availability.\n- Single Server: All data is stored on one server.\n- Sharding: Data is divided and distributed across multiple servers.\n- Replication: Multiple copies of data are maintained on different servers.\n- Master-Slave: One master handles writes and slaves maintain copies.\n- Master-Master: Multiple masters accept read and write operations."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Master-Slave Replication",
+                "content": "Master-Slave Replication is a distribution model in which one master server manages write operations and replicates data to one or more slave servers.\nWorking: Client sends a write request to the master; master updates its database; changes are replicated to slave servers; slaves handle read requests; if the master fails, a slave may be promoted through failover.\nAdvantages: Read scalability, data availability, backup support and reduced load on master."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Master-Master Replication",
+                "content": "Master-Master Replication is a model in which multiple database servers act as masters and accept read and write operations.\nWorking: Client sends requests to any master; each master updates its local database; changes are synchronized between masters; conflicting updates are resolved using conflict-resolution methods.\nAdvantages: High availability, write scalability and better distribution of workload."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "CAP Theorem",
+                "content": "The CAP Theorem states that a distributed database system can guarantee at most two of the following three properties during a network partition:\n- Consistency (C): Every read receives the latest successful write.\n- Availability (A): Every request receives a response.\n- Partition Tolerance (P): System continues operating despite network communication failures."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Consistency and Availability Trade-offs",
+                "content": "During a network partition, a distributed system must choose between consistency and availability.\n- CP System: Consistency + Partition Tolerance; may reject requests; maintains consistent data. Example: HBase (typical configuration).\n- AP System: Availability + Partition Tolerance; continues responding; may return stale data. Example: Cassandra (tunable consistency).\n- CA: Consistency and availability can be achieved when there is no network partition."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "NoSQL Distribution Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nCLIENT → MASTER SERVER → SLAVE 1 / SLAVE 2 (read requests); MASTER receives write requests.\nCAP: CONSISTENCY / AVAILABILITY / PARTITION TOLERANCE.",
+                "image_url": "https://images.openai.com/static-rsc-4/kMuSWFWaZq7uiJnGuHytcwGCMj8T6LeO8H_PHVNX9J8b-QCmGYF-nM1sWdgZnbMWIt0DmAxd8409l6z7aOudYy5Wry0l5ZmovNbAtJ_yANXeD9CaGNcjRpemW_5qZttWG2QegjF8cM5RjIFcmMmuBdrD7veG_FZY48Q-BZJYtiAtCk_KqnP09qeQxkYJxlfR?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U2_Q2",
+          "topic": "Cassandra Data Model and CRUD Operations",
+          "question": null,
+          "subtopics": [
+            "Definition of Apache Cassandra",
+            "Cassandra Data Model",
+            "Keyspace and Table Structure",
+            "CRUD Operations",
+            "CQL Commands and Syntax",
+            "Cassandra Data Retrieval and Examples",
+            "Cassandra Data Model Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Apache Cassandra",
+                "content": "Apache Cassandra is an open-source, distributed NoSQL database designed to handle large amounts of data across multiple servers.\nFeatures: High availability, fault tolerance, horizontal scalability and peer-to-peer architecture."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Cassandra Data Model",
+                "content": "Cassandra uses a wide-column data model to store data.\n- Keyspace: Logical container for tables.\n- Table: Stores data in rows and columns.\n- Partition Key: Determines the node where data is stored.\n- Clustering Column: Determines the order of rows within a partition.\n- Column: Stores individual data values."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Keyspace and Table Structure",
+                "content": "A keyspace is similar to a database in relational systems.\nCreate keyspace:\n```sql\nCREATE KEYSPACE college WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 3};\n```\nCreate table:\n```sql\nUSE college;\nCREATE TABLE students (roll_no INT PRIMARY KEY, name TEXT, department TEXT, grade TEXT);\n```"
+              },
+              {
+                "subtopic_number": 4,
+                "title": "CRUD Operations",
+                "content": "CRUD represents four basic database operations.\nCREATE – Insert Data:\n```sql\nINSERT INTO students (roll_no, name, department, grade) VALUES (101, 'Raja', 'AI&DS', 'A');\n```\nREAD – Retrieve Data:\n```sql\nSELECT * FROM students;\nSELECT * FROM students WHERE roll_no = 101;\n```\nUPDATE – Modify Data:\n```sql\nUPDATE students SET grade = 'A+' WHERE roll_no = 101;\n```\nDELETE – Remove Data:\n```sql\nDELETE FROM students WHERE roll_no = 101;\n```"
+              },
+              {
+                "subtopic_number": 5,
+                "title": "CQL Commands and Syntax",
+                "content": "CQL (Cassandra Query Language) is used to communicate with Cassandra databases.\n- CREATE KEYSPACE: Creates a keyspace.\n- CREATE TABLE: Creates a table.\n- INSERT: Inserts records.\n- SELECT: Retrieves records.\n- UPDATE: Modifies records.\n- DELETE: Removes records.\n- DROP TABLE: Deletes a table."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Cassandra Data Retrieval and Examples",
+                "content": "Example student table:\nroll_no | name | department | grade\n101 | Raja | AI&DS | A\n102 | Kumar | CSE | B\n103 | Arun | AI&DS | A+\nRetrieve AI&DS students (the supplied example query):\n```sql\nSELECT * FROM students WHERE roll_no = 101;\n```\nCassandra efficiently retrieves records using partition keys. Cassandra requires suitable primary-key-based queries. Filtering on non-key columns may require additional configuration or indexing."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Cassandra Data Model Diagram",
+                "content": "Exam-friendly block diagram:\nCASSANDRA → KEYSPACE → TABLE → PARTITION KEY / COLUMNS → PARTITION → ROWS → DATA VALUES.",
+                "image_url": "https://images.openai.com/static-rsc-4/1UyAPXR3G_HpCpxj1oEWAdLrJFSsxtYFmuAjV-Ko_UryQTFtDDzYKDzNLB0sg_5oL9TZAvm2vbcGXr_cl264dLCO1KWSlRYoQh8RLckAyor9NFCJoLrtG4raOz-6pcSUOrHNnuH1hDMbPqoSy2PW2gSKdGo9QtPuWvZpczfiAF6gInCDUDKPOoSa666IDDx4?purpose=fullsize"
+              }
+            ],
+            "programs": [
+              {
+                "program_id": "U2_Q2_P1",
+                "title": "Keyspace and Table Structure",
+                "language": "sql",
+                "original_code": "CREATE KEYSPACE college WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 3};",
+                "simplified_code": "CREATE KEYSPACE college WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 3};",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q2_P2",
+                "title": "Keyspace and Table Structure",
+                "language": "sql",
+                "original_code": "USE college;\nCREATE TABLE students (roll_no INT PRIMARY KEY, name TEXT, department TEXT, grade TEXT);",
+                "simplified_code": "USE college;\nCREATE TABLE students (roll_no INT PRIMARY KEY, name TEXT, department TEXT, grade TEXT);",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q2_P3",
+                "title": "CRUD Operations",
+                "language": "sql",
+                "original_code": "INSERT INTO students (roll_no, name, department, grade) VALUES (101, 'Raja', 'AI&DS', 'A');",
+                "simplified_code": "INSERT INTO students (roll_no, name, department, grade) VALUES (101, 'Raja', 'AI&DS', 'A');",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q2_P4",
+                "title": "CRUD Operations",
+                "language": "sql",
+                "original_code": "SELECT * FROM students;\nSELECT * FROM students WHERE roll_no = 101;",
+                "simplified_code": "SELECT * FROM students;\nSELECT * FROM students WHERE roll_no = 101;",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q2_P5",
+                "title": "CRUD Operations",
+                "language": "sql",
+                "original_code": "UPDATE students SET grade = 'A+' WHERE roll_no = 101;",
+                "simplified_code": "UPDATE students SET grade = 'A+' WHERE roll_no = 101;",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q2_P6",
+                "title": "CRUD Operations",
+                "language": "sql",
+                "original_code": "DELETE FROM students WHERE roll_no = 101;",
+                "simplified_code": "DELETE FROM students WHERE roll_no = 101;",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q2_P7",
+                "title": "Cassandra Data Retrieval and Examples",
+                "language": "sql",
+                "original_code": "SELECT * FROM students WHERE roll_no = 101;",
+                "simplified_code": "SELECT * FROM students WHERE roll_no = 101;",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              }
+            ]
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U2_Q3",
+          "topic": "MongoDB CRUD Operations",
+          "question": null,
+          "subtopics": [
+            "Definition of MongoDB",
+            "MongoDB Database and Collection",
+            "Insert Operations",
+            "Read and Retrieve Operations",
+            "Update Operations",
+            "Delete and Filtering Operations",
+            "MongoDB CRUD Operation Flow Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of MongoDB",
+                "content": "MongoDB is an open-source, document-oriented NoSQL database that stores data in flexible BSON (Binary JSON) documents.\nFeatures: Flexible schema, document-based storage, horizontal scalability, high availability and fast data retrieval."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "MongoDB Database and Collection",
+                "content": "MongoDB stores data using the following hierarchy:\n- Database: Container for collections.\n- Collection: Group of related documents.\n- Document: Individual record stored in BSON format.\n- Field: Individual data item.\nSelect database:\n```javascript\nuse college\n```\nCreate or select collection:\n```javascript\ndb.createCollection(\"students\")\n```"
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Insert Operations",
+                "content": "The insertOne() method inserts one student record.\n```javascript\ndb.students.insertOne({roll_no: 115, name: \"Raja\", grade: \"Fifth\", hobbies: \"Basketball\", DOJ: \"2026-06-10\"})\n```\nPurpose: Adds a new document to the collection."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Read and Retrieve Operations",
+                "content": "The find() method retrieves documents.\n```javascript\ndb.students.find({roll_no: 115})\n```\nRetrieve all student records:\n```javascript\ndb.students.find()\n```"
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Update Operations",
+                "content": "The updateOne() method modifies an existing document.\n```javascript\ndb.students.updateOne({name: \"Raja\"}, {$set: {hobbies: \"Football\"}})\n```\nPurpose: $set updates the specified field without replacing the entire document."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Delete and Filtering Operations",
+                "content": "Delete fifth-grade students:\n```javascript\ndb.students.deleteMany({grade: \"Fifth\"})\n```\nRetrieve students whose names start with V:\n```javascript\ndb.students.find({name: {$regex: \"^V\", $options: \"i\"}})\n```\n- $regex: Performs pattern matching.\n- ^V: Matches names starting with V.\n- i: Ignores uppercase and lowercase differences."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "MongoDB CRUD Operation Flow Diagram",
+                "content": "Exam-friendly block diagram:\nMONGODB → DATABASE → COLLECTION → CREATE/INSERT; READ/FIND; UPDATE/MODIFY; DELETE/REMOVE → DOCUMENTS.",
+                "image_url": "https://images.openai.com/static-rsc-4/rxyBRR1tg_p8EplCOSONp8gZQd3wx5-r4u51UskhFUYYRqlWxC5icO8gyqCVKvM83QdAFaOCZYznjIixhrPlqsFcFPUU64P8citXe4pUllb4_DJlT1d3vMWu6A7GYPmOob2tVqizVHVOOGJPo2MViGjuyayczZjmFN0iCLDLtez5G0XlaE-gGIFZlQRRV93U?purpose=fullsize"
+              }
+            ],
+            "programs": [
+              {
+                "program_id": "U2_Q3_P1",
+                "title": "MongoDB Database and Collection",
+                "language": "javascript",
+                "original_code": "db.createCollection(\"students\")",
+                "simplified_code": "db.createCollection(\"students\")",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q3_P2",
+                "title": "Insert Operations",
+                "language": "javascript",
+                "original_code": "db.students.insertOne({roll_no: 115, name: \"Raja\", grade: \"Fifth\", hobbies: \"Basketball\", DOJ: \"2026-06-10\"})",
+                "simplified_code": "db.students.insertOne({roll_no: 115, name: \"Raja\", grade: \"Fifth\", hobbies: \"Basketball\", DOJ: \"2026-06-10\"})",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q3_P3",
+                "title": "Read and Retrieve Operations",
+                "language": "javascript",
+                "original_code": "db.students.find({roll_no: 115})",
+                "simplified_code": "db.students.find({roll_no: 115})",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q3_P4",
+                "title": "Read and Retrieve Operations",
+                "language": "javascript",
+                "original_code": "db.students.find()",
+                "simplified_code": "db.students.find()",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q3_P5",
+                "title": "Update Operations",
+                "language": "javascript",
+                "original_code": "db.students.updateOne({name: \"Raja\"}, {$set: {hobbies: \"Football\"}})",
+                "simplified_code": "db.students.updateOne({name: \"Raja\"}, {$set: {hobbies: \"Football\"}})",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q3_P6",
+                "title": "Delete and Filtering Operations",
+                "language": "javascript",
+                "original_code": "db.students.deleteMany({grade: \"Fifth\"})",
+                "simplified_code": "db.students.deleteMany({grade: \"Fifth\"})",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U2_Q3_P7",
+                "title": "Delete and Filtering Operations",
+                "language": "javascript",
+                "original_code": "db.students.find({name: {$regex: \"^V\", $options: \"i\"}})",
+                "simplified_code": "db.students.find({name: {$regex: \"^V\", $options: \"i\"}})",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              }
+            ]
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U2_Q4",
+          "topic": "NoSQL Aggregate and Graph Data Models",
+          "question": null,
+          "subtopics": [
+            "Definition of NoSQL Data Models",
+            "Aggregate Data Models",
+            "Key-Value Data Model",
+            "Document Data Model",
+            "Graph Data Model",
+            "Advantages and Applications of Data Models",
+            "NoSQL Data Models Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of NoSQL Data Models",
+                "content": "NoSQL is a non-relational database approach designed to store and manage large volumes of distributed and flexible data.\nMajor types: Key-Value Model, Document Model, Column-Family Model and Graph Model."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Aggregate Data Models",
+                "content": "An Aggregate Data Model groups related data into a single logical unit called an aggregate.\nFeatures: Stores related information together; supports efficient data retrieval; reduces complex joins; suitable for distributed databases.\nExample: A customer record containing customer details, address and order information."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Key-Value Data Model",
+                "content": "A Key-Value Model stores data as a collection of unique keys and their corresponding values.\nFeatures: Simple data structure, fast data retrieval, unique keys and flexible values.\nExample: 101 → Raja; 102 → Kumar; 103 → Arun. Database: Redis."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Document Data Model",
+                "content": "A Document Data Model stores data in documents, usually in JSON, BSON or XML format.\nFeatures: Flexible schema, nested data support, easy data modification and support for complex documents.\nExample:\n```json\n{\"roll_no\":101,\"name\":\"Raja\",\"department\":\"AI&DS\",\"hobbies\":[\"Cricket\",\"Music\"]}\n```\nDatabase: MongoDB."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Graph Data Model",
+                "content": "A Graph Data Model represents data using nodes, edges and properties.\n- Nodes: Represent entities.\n- Edges: Represent relationships.\n- Properties: Store additional information.\nExample: Student node; College node; Studies at edge. Database: Neo4j."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Advantages and Applications of Data Models",
+                "content": "Model — Advantages — Applications:\n- Key-Value — Fast access — Caching.\n- Document — Flexible schema — Content management.\n- Column-Family — Distributed storage — Big Data.\n- Graph — Relationship analysis — Social networks.\n- Aggregate — Efficient data grouping — E-Commerce."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "NoSQL Data Models Diagram",
+                "content": "Exam-friendly block diagram:\nNoSQL → Key-Value (Redis), Document (MongoDB), Column-Family (Cassandra), Graph (Neo4j).",
+                "image_url": "https://images.openai.com/static-rsc-4/oWQHVKuB0Ft1FKuK7i9SGhfQhuIVZ0zteGbadb4C05p-PI5P-MYMz2GV_4QDROQjku3FVOHGKyH_KE09wWmVB-sScTVUgZAMe2JrZBSigYMOFsIgBx3aHDWFzMeai8G4VSyC7JxArnlgIO2_n2Px5KKYJsN9SwA_wWUvJGOnMg54Y15ExGgJimZnj5qri1YlJ?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "unit_name": "MapReduce Applications",
+      "questions": [
+        {
+          "question_id": "U3_Q1",
+          "topic": "MapReduce Workflow – Grocery Dataset",
+          "question": null,
+          "subtopics": [
+            "Definition of MapReduce",
+            "Grocery Dataset and Input Records",
+            "Mapper Function",
+            "Intermediate Key-Value Pairs",
+            "Shuffle and Sort Process",
+            "Reducer Function and Final Output",
+            "MapReduce Workflow Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of MapReduce",
+                "content": "MapReduce is a distributed programming model used to process large datasets across multiple computers in a Hadoop cluster.\n- Mapper: Converts input data into intermediate key-value pairs.\n- Reducer: Processes grouped values and generates final output."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Grocery Dataset and Input Records",
+                "content": "Consider the following transactions:\nID 1: Paneer, Bread, Eggs, Milk\nID 2: Eggs, Paneer, Bread\nID 3: Milk, Bread, Eggs\nID 4: Milk, Paneer\nID 5: Bread, Eggs\nObjective: Calculate the total number of times each item is purchased."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Mapper Function",
+                "content": "The Mapper reads each transaction and generates a key-value pair. Key = Item name; Value = 1.\nExample input: Paneer, Bread, Eggs, Milk\nOutput: (Paneer, 1), (Bread, 1), (Eggs, 1), (Milk, 1)."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Intermediate Key-Value Pairs",
+                "content": "Intermediate pairs:\n(Paneer,1), (Bread,1), (Eggs,1), (Milk,1)\n(Eggs,1), (Paneer,1), (Bread,1)\n(Milk,1), (Bread,1), (Eggs,1)\n(Milk,1), (Paneer,1)\n(Bread,1), (Eggs,1)"
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Shuffle and Sort Process",
+                "content": "Shuffle and Sort groups all values having the same key.\nPaneer → [1,1,1]\nBread → [1,1,1,1]\nEggs → [1,1,1,1]\nMilk → [1,1,1]\nIt transfers and groups Mapper outputs before Reducer execution."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Reducer Function and Final Output",
+                "content": "Reducer adds all values associated with each key.\n```text\nReduce(key, values):\n    total = SUM(values)\n    Output(key, total)\n```\nFinal output: Paneer 3; Bread 4; Eggs 4; Milk 3.\nResult: Bread and Eggs are the most frequently purchased items."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "MapReduce Workflow Diagram",
+                "content": "Exam-friendly block diagram:\nINPUT DATASET → INPUT SPLIT → MAPPER → KEY-VALUE PAIRS (Item,1) → SHUFFLE & SORT → REDUCER (SUM) → FINAL OUTPUT.",
+                "image_url": "https://images.openai.com/static-rsc-4/ucNBVo2k5MJRSHjHyUjD_QWw0VMxm0Ry8yZPBwTH0-oklruztwbCpND4ptP-AnQxt0X3IV7XNUqH2o-AzjrdLfVnhJvIjzf3_E5gZ7DfBtwsv6Cot-NhvoIELSruLfFKXiT8t8IGC0xE6i78uM91OUBZYPzBP6rShU9QTo1qTSWxmF85wsYSm_Rq8-uQDXTn?purpose=fullsize"
+              }
+            ],
+            "programs": [
+              {
+                "program_id": "U3_Q1_P1",
+                "title": "Reducer Function and Final Output",
+                "language": "text",
+                "original_code": "Reduce(key, values):\n    total = SUM(values)\n    Output(key, total)",
+                "simplified_code": "Reduce(key, values):\n    total = SUM(values)\n    Output(key, total)",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              }
+            ]
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U3_Q2",
+          "topic": "YARN Architecture and Framework",
+          "question": null,
+          "subtopics": [
+            "Definition of YARN",
+            "YARN Architecture Components",
+            "ResourceManager",
+            "NodeManager",
+            "ApplicationMaster and Containers",
+            "YARN Job Execution and Scheduling",
+            "YARN Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of YARN",
+                "content": "YARN (Yet Another Resource Negotiator) is the resource management and job scheduling framework of Hadoop. It manages cluster resources and allocates them to different applications.\nFunctions: Resource allocation, job scheduling, application management and cluster resource monitoring."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "YARN Architecture Components",
+                "content": "YARN consists of four major components: ResourceManager, NodeManager, ApplicationMaster and Container. These components work together to execute applications across a Hadoop cluster."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "ResourceManager",
+                "content": "ResourceManager (RM) is the master component responsible for managing resources across the cluster.\nFunctions: Allocates cluster resources; schedules application requests; monitors resource availability; coordinates with NodeManagers.\nIt contains Scheduler (allocates resources based on scheduling policies) and ApplicationsManager (accepts application submissions and manages ApplicationMaster startup)."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "NodeManager",
+                "content": "NodeManager (NM) is responsible for managing individual worker nodes.\nFunctions: Monitors node resources; manages containers; reports node status to ResourceManager; monitors container execution.\nEach worker node runs one NodeManager."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "ApplicationMaster and Containers",
+                "content": "ApplicationMaster (AM): Manages a particular application; requests resources from ResourceManager; coordinates task execution; monitors application progress.\nContainer: A unit of allocated resources; provides CPU and memory for executing tasks; runs application processes on worker nodes."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "YARN Job Execution and Scheduling",
+                "content": "Steps: Client submits an application to ResourceManager; ResourceManager allocates a container to start ApplicationMaster; ApplicationMaster registers with ResourceManager; ApplicationMaster requests additional containers; ResourceManager allocates resources; NodeManagers launch tasks inside containers; ApplicationMaster monitors execution and reports completion.\nExample: For a MapReduce job, YARN allocates containers to execute Mapper and Reducer tasks across worker nodes."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "YARN Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nCLIENT → RESOURCE MANAGER → APPLICATION MASTER → RESOURCE REQUEST → NODE MANAGERS → CONTAINERS → TASKS → JOB COMPLETION.",
+                "image_url": "https://images.openai.com/static-rsc-4/shbV0eAMCvbq1cTJhc3DOGd_nX8q-KrLdH23E9rluTVG1Z-2TOGnwdYvX9UupzdG35nVmmr_2Kguc0ziLDfKhxt_Gs3K2pCvCCtbDZ8u25_vv89KgSPXZaPEMzDH6zJpOJbm7svMH9ZFqBdGmWK1C5xQuTCM-X4Ib32Aw3UZL4lF_0Dws57J95Yr98w3_9?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U3_Q3",
+          "topic": "Anatomy of MapReduce Job Execution",
+          "question": null,
+          "subtopics": [
+            "Definition of MapReduce Job Execution",
+            "Job Submission Process",
+            "Input Splitting and Record Reading",
+            "Mapper and Combiner Execution",
+            "Shuffle and Sort Process",
+            "Reducer Execution and Output Storage",
+            "MapReduce Job Execution Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of MapReduce Job Execution",
+                "content": "MapReduce Job Execution is the process of executing a distributed data processing task using Mapper and Reducer functions in a Hadoop cluster. It converts input data into intermediate key-value pairs and produces final output."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Job Submission Process",
+                "content": "- Client submits a MapReduce job to Hadoop.\n- Job configuration and JAR files are submitted.\n- Input and output paths are specified.\n- Hadoop validates the job configuration.\n- The job is submitted to the cluster for execution."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Input Splitting and Record Reading",
+                "content": "- InputFormat: Divides input files into logical input splits.\n- InputSplit: Represents a portion of input data.\n- RecordReader: Converts input data into key-value records.\n- Each split is processed by a separate Mapper task."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Mapper and Combiner Execution",
+                "content": "Mapper reads input key-value pairs, processes individual records and generates intermediate key-value pairs.\nCombiner performs local aggregation of Mapper output, reduces the amount of data transferred and minimizes network communication.\nExample: (A,1),(A,1),(B,1),(A,1) → (A,3),(B,1)."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Shuffle and Sort Process",
+                "content": "- Partitioning: Divides Mapper output among Reducers.\n- Shuffling: Transfers intermediate data to Reducers.\n- Sorting: Groups records based on keys.\n- Grouping: Combines values belonging to the same key.\nExample: (A,1),(A,1),(A,1),(B,1) → (A,[1,1,1]), (B,[1])."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Reducer Execution and Output Storage",
+                "content": "Reducer receives grouped key-value pairs; processes each key and its associated values; performs aggregation or computation; generates final output; OutputFormat writes results into HDFS.\nExample: Word count produces the total occurrence of each word.\nClassic MapReduce vs YARN:\n- Classic: JobTracker and TaskTracker; JobTracker manages resources and jobs; limited scalability; primarily MapReduce.\n- YARN: ResourceManager and NodeManager; resource and application management are separated; better scalability; supports multiple processing frameworks."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "MapReduce Job Execution Diagram",
+                "content": "Exam-friendly block diagram:\nJOB SUBMISSION → INPUT FORMAT → INPUT SPLITS → RECORD READER → MAPPER → COMBINER → SHUFFLE & SORT → REDUCER → OUTPUT FORMAT → HDFS.",
+                "image_url": "https://images.openai.com/static-rsc-4/ItG_DMJckeSyzHEQU5ugn7JRDsSadJf8IZwsSvOFMkXW_1ffP6JJAqvN0-ODklVovkVzhkefYJTFtJeFlfDgFFy5nCiBP-dS8HQRoCESmh_Eql7jp3FhrCTQ4k-gl60uwblL4u0CjTbH1M_QwMM6WqpzwQhtJ3wlgQNE467zYU-iuUuh4qeiwbUr9holg6dW?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U3_Q4",
+          "topic": "MapReduce Types, Formats and Failures",
+          "question": null,
+          "subtopics": [
+            "Definition of MapReduce Types and Formats",
+            "Types of MapReduce Applications",
+            "InputFormat and Its Types",
+            "OutputFormat and Its Types",
+            "MapReduce Task Execution",
+            "Failures in MapReduce and YARN",
+            "MapReduce Input-Output Flow Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of MapReduce Types and Formats",
+                "content": "MapReduce is a distributed processing model that uses Mapper and Reducer functions to process large datasets. InputFormat and OutputFormat define how input data is read and how processed results are written."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Types of MapReduce Applications",
+                "content": "- Map-only Job: Performs processing using only the Mapper without a Reducer.\n- Map-Reduce Job: Uses both Mapper and Reducer for processing.\n- Chained MapReduce Job: Executes multiple MapReduce jobs sequentially.\nExamples: Map-only—data filtering; Map-Reduce—word counting; chained jobs—multi-stage data analysis."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "InputFormat and Its Types",
+                "content": "InputFormat defines how input files are divided into input splits and read by Mapper tasks.\n- TextInputFormat: Reads text files line by line.\n- KeyValueTextInputFormat: Reads key-value text records.\n- SequenceFileInputFormat: Reads binary sequence files.\n- NLineInputFormat: Creates splits based on number of lines.\n- CombineFileInputFormat: Combines multiple small files."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "OutputFormat and Its Types",
+                "content": "OutputFormat defines how Reducer output is written to storage.\n- TextOutputFormat: Writes output as text.\n- SequenceFileOutputFormat: Writes binary sequence files.\n- MapFileOutputFormat: Writes MapFile format.\n- NullOutputFormat: Produces no output file.\n- DBOutputFormat: Writes output to a database."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "MapReduce Task Execution",
+                "content": "Steps: Input files are divided into splits; Mapper reads input records; Mapper generates intermediate key-value pairs; Combiner performs local aggregation if configured; Shuffle and Sort group intermediate data; Reducer processes grouped records; OutputFormat writes final results."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Failures in MapReduce and YARN",
+                "content": "Common failures and handling:\n- Mapper Failure: Re-execute failed task.\n- Reducer Failure: Re-execute failed task.\n- Node Failure: Reschedule tasks on another node.\n- ApplicationMaster Failure: Restart ApplicationMaster if configured.\n- ResourceManager Failure: ResourceManager recovery and failover.\n- Network Failure: Retry communication and recover tasks.\nFault-tolerance techniques: Task re-execution, HDFS replication, heartbeat monitoring, speculative execution, ResourceManager high availability and application recovery."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "MapReduce Input-Output Flow Diagram",
+                "content": "Exam-friendly block diagram:\nINPUT FILES → INPUT FORMAT → INPUT SPLITS → MAPPER → INTERMEDIATE DATA → SHUFFLE & SORT → REDUCER → OUTPUT FORMAT → OUTPUT FILES.",
+                "image_url": "https://images.openai.com/static-rsc-4/88a1MHWOyrfawiO8LutkGnlVlFvG6Kpm0_A7fUU1eoUAtSKfiu8xwU79t3gW7T7sCQqv-X3FkQ3ZC0WIEvJxiCuNigJwgxJPxeYLUQ8bK_Tb-mKHXjnUbH4-Vlp3bI-lCW7LRcQ4jFndgyoc8K2L0V9Lka7_Y3TW1HxMD7Zz2QrvZnB5S1KEzjbIga4APQVa?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "unit_name": "Basics of Hadoop",
+      "questions": [
+        {
+          "question_id": "U4_Q1",
+          "topic": "HDFS Architecture and Commands",
+          "question": null,
+          "subtopics": [
+            "Definition of HDFS",
+            "HDFS Architecture Components",
+            "NameNode and DataNode",
+            "HDFS Block Management and Replication",
+            "HDFS Read and Write Operations",
+            "HDFS Commands and File Operations",
+            "HDFS Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of HDFS",
+                "content": "HDFS (Hadoop Distributed File System) is a distributed file system used to store large datasets across multiple computers in a Hadoop cluster.\nFeatures: Distributed storage, fault tolerance, high throughput, scalability and data replication."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "HDFS Architecture Components",
+                "content": "Major components:\n- NameNode: Maintains file system metadata.\n- DataNode: Stores actual data blocks.\n- Secondary NameNode: Periodically merges file system image and edit logs to create checkpoints.\n- Client: Communicates with NameNode and DataNodes to access files."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "NameNode and DataNode",
+                "content": "NameNode: Acts as the master node; maintains file and directory information; stores block locations; manages file permissions; monitors DataNodes using heartbeats.\nDataNode: Acts as a worker node; stores actual data blocks; performs read and write operations; sends block reports to NameNode; maintains replicated blocks.\nSecondary NameNode: Performs checkpointing; merges FsImage and EditLog; helps reduce metadata recovery work."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "HDFS Block Management and Replication",
+                "content": "HDFS divides large files into fixed-size blocks.\n- Block: A part of a large file.\n- Replication: Creates multiple copies of blocks.\n- Block Placement: Distributes replicas across DataNodes.\n- Fault Tolerance: Allows data recovery when a DataNode fails.\nExample: A file divided into three blocks is stored across different DataNodes with multiple replicas."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "HDFS Read and Write Operations",
+                "content": "Read Operation: Client requests a file from NameNode; NameNode provides block locations; client connects to the nearest suitable DataNode; DataNode sends required blocks; client combines blocks to reconstruct the file.\nWrite Operation: Client requests file creation; NameNode checks permissions and selects DataNodes; client divides data into blocks; blocks are written through a DataNode replication pipeline; acknowledgements are returned to the client."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "HDFS Commands and File Operations",
+                "content": "HDFS commands:\n```bash\nhdfs dfs -ls /\nhdfs dfs -mkdir /sample\nhdfs dfs -put file.txt /sample/\nhdfs dfs -cat /sample/file.txt\n```\nAlternative upload: `hdfs dfs -copyFromLocal file.txt /sample/`.\nAdditional commands: `hdfs dfs -get /sample/file.txt .` downloads a file; `hdfs dfs -rm /sample/file.txt` deletes a file."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "HDFS Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nCLIENT → NAMENODE (Metadata Manager) → DATANODE 1 / DATANODE 2 (data blocks); SECONDARY NAMENODE performs checkpointing.",
+                "image_url": "https://images.openai.com/static-rsc-4/jEIJnxdp_CsEaNEfd9bZTQQMrO5iLLGTeEf_4qh-q65QlikQ4B09FQ-6idzfBnBg_5K1-uxAa8QoR4pEsG3SubdgbumepUKNq1V1Y39gAE9CWzcDkQVg_xkiDI0mOPgZhcDIZDpJTp0TO6wGHZtSA2Ej-zLPcydx-QTFtjhZW-_igVZ9ZayFNlROP91-3K8V?purpose=fullsize"
+              }
+            ],
+            "programs": [
+              {
+                "program_id": "U4_Q1_P1",
+                "title": "HDFS Commands and File Operations",
+                "language": "bash",
+                "original_code": "hdfs dfs -ls /\nhdfs dfs -mkdir /sample\nhdfs dfs -put file.txt /sample/\nhdfs dfs -cat /sample/file.txt",
+                "simplified_code": "hdfs dfs -ls /\nhdfs dfs -mkdir /sample\nhdfs dfs -put file.txt /sample/\nhdfs dfs -cat /sample/file.txt",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              }
+            ]
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U4_Q2",
+          "topic": "Spark Streaming – IoT Predictive Maintenance",
+          "question": null,
+          "subtopics": [
+            "Definition of Spark Streaming",
+            "IoT Sensor Data Collection and HDFS Storage",
+            "Kafka Architecture and Data Streaming",
+            "Real-Time Data Processing Using PySpark",
+            "Python-Based Machine Learning Integration",
+            "Real-Time Failure Prediction and Applications",
+            "Spark Streaming Predictive Maintenance Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Spark Streaming",
+                "content": "Apache Spark Streaming is a component of Apache Spark used to process continuous streams of real-time data.\nIt supports real-time data processing, stream analysis, fault tolerance and integration with Kafka."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "IoT Sensor Data Collection and HDFS Storage",
+                "content": "IoT sensors installed in machines collect temperature, vibration, pressure, speed, humidity and machine operating time.\nStorage process: Sensors generate continuous data; data is collected through IoT gateways; data is transferred to the storage system; HDFS stores collected data in distributed blocks; historical data is used for machine learning analysis."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Kafka Architecture and Data Streaming",
+                "content": "Apache Kafka is a distributed event-streaming platform used to collect and transfer real-time sensor data.\n- Producer: Sends sensor data to Kafka.\n- Topic: Stores categorized events.\n- Broker: Manages messages.\n- Consumer: Reads messages from topics.\n- Partition: Divides topic data for parallel processing.\nWorking: IoT sensors send data through producers; Kafka stores messages in topics; Spark consumes messages; real-time data is processed for analysis."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Real-Time Data Processing Using PySpark",
+                "content": "PySpark is the Python API for Apache Spark.\nThe supplied example reads a Kafka topic as a stream and prints message values:\n```python\nfrom pyspark.sql import SparkSession\nspark = SparkSession.builder.appName(\"IoTMonitoring\").getOrCreate()\ndf = spark.readStream.format(\"kafka\").option(\"kafka.bootstrap.servers\", \"localhost:9092\").option(\"subscribe\", \"machine_data\").load()\ndata = df.selectExpr(\"CAST(value AS STRING)\")\nquery = data.writeStream.format(\"console\").start()\nquery.awaitTermination()\n```\nProcessing steps: Connect Spark to Kafka; read sensor messages; parse JSON records; filter invalid values; calculate statistics; identify abnormal conditions; store processed results in HDFS."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Python-Based Machine Learning Integration",
+                "content": "Machine learning models predict machine failures using historical and real-time sensor data.\nSteps: Collect historical sensor data from HDFS; preprocess and clean; train a Python ML model; evaluate with test data; load the trained model into Spark; predict failures using incoming sensor values.\nExample algorithms: Random Forest, Decision Tree, Logistic Regression and Support Vector Machine.\nExample prediction: Temperature = 95°C; Vibration = High; Failure Risk = HIGH."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Real-Time Failure Prediction and Applications",
+                "content": "Working: Spark continuously processes sensor data; machine learning identifies abnormal patterns; failure probability is calculated; alerts are generated when abnormal conditions occur; maintenance teams receive notifications.\nAdvantages: Reduces machine downtime; improves production efficiency; prevents unexpected failures; reduces maintenance costs; improves equipment lifetime."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Spark Streaming Predictive Maintenance Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nIoT MACHINE SENSORS → DATA COLLECTION → KAFKA → SPARK STREAMING → PYSPARK → HDFS / ML MODEL → FAILURE DETECTION → ALERT GENERATION → PREDICTIVE MAINTENANCE.",
+                "image_url": "https://images.openai.com/static-rsc-4/GQaOLLTV8LaIcsnEr-mCSBDC5pTlBcFF0muU6XcWkk6POdYxpK2DalD1fs7BmEbOFq6pPh_bCmtNVOEV1WeAuU_6LGD2NrcIYANbulYbFNqhJ-mP5AL6JE5gw3hljpnObbAsazeaq1wC-xu748_zbuiA94kaMQJl7JM2PODUVhM6RXF-MBodxv9RtwuSESPA?purpose=fullsize"
+              }
+            ],
+            "programs": [
+              {
+                "program_id": "U4_Q2_P1",
+                "title": "Real-Time Data Processing Using PySpark",
+                "language": "python",
+                "original_code": "from pyspark.sql import SparkSession\nspark = SparkSession.builder.appName(\"IoTMonitoring\").getOrCreate()\ndf = spark.readStream.format(\"kafka\").option(\"kafka.bootstrap.servers\", \"localhost:9092\").option(\"subscribe\", \"machine_data\").load()\ndata = df.selectExpr(\"CAST(value AS STRING)\")\nquery = data.writeStream.format(\"console\").start()\nquery.awaitTermination()",
+                "simplified_code": "from pyspark.sql import SparkSession\nspark = SparkSession.builder.appName(\"IoTMonitoring\").getOrCreate()\ndf = spark.readStream.format(\"kafka\").option(\"kafka.bootstrap.servers\", \"localhost:9092\").option(\"subscribe\", \"machine_data\").load()\ndata = df.selectExpr(\"CAST(value AS STRING)\")\nquery = data.writeStream.format(\"console\").start()\nquery.awaitTermination()",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              }
+            ]
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U4_Q3",
+          "topic": "Avro and Cassandra-Hadoop Integration",
+          "question": null,
+          "subtopics": [
+            "Definition of Avro",
+            "Avro Data Serialization",
+            "Avro Schema and Data Types",
+            "Cassandra Data Storage and Processing",
+            "Cassandra-Hadoop Integration Process",
+            "Big Data Analytics Using Cassandra and Hadoop",
+            "Cassandra-Hadoop Integration Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Avro",
+                "content": "Apache Avro is a data serialization framework used to exchange and store data in a compact binary format. It is commonly used in Hadoop environments for efficient data serialization.\nFeatures: Schema-based serialization, compact binary format, language-independent, supports data exchange and schema evolution."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Avro Data Serialization",
+                "content": "Data Serialization is the process of converting data objects into a format suitable for storage or transmission.\nAvro supports Binary Format (compact binary representation) and JSON Format (readable JSON representation of schemas and data).\nAdvantages: Reduces storage requirements; improves data transfer efficiency; supports multiple programming languages; enables efficient data exchange."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Avro Schema and Data Types",
+                "content": "Avro uses a schema to define the structure of data.\nExample:\n```json\n{\"type\":\"record\",\"name\":\"Student\",\"fields\":[{\"name\":\"roll_no\",\"type\":\"int\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"department\",\"type\":\"string\"}]}\n```\nTypes: null, boolean, int, long, float, double, string, bytes, record, array, map and enum."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Cassandra Data Storage and Processing",
+                "content": "Apache Cassandra stores large amounts of distributed data using a wide-column data model.\nFeatures: Distributed architecture, peer-to-peer communication, high availability, replication and horizontal scalability.\nCassandra stores operational data and supports fast read and write operations."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Cassandra-Hadoop Integration Process",
+                "content": "Cassandra integrates with Hadoop to combine distributed storage and large-scale data processing.\nSteps: Data is stored in Cassandra tables; Hadoop connects through Cassandra-Hadoop integration interfaces; Cassandra data is accessed by Hadoop MapReduce jobs; Mapper reads records; Reducer processes and aggregates data; results are stored in HDFS or Cassandra."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Big Data Analytics Using Cassandra and Hadoop",
+                "content": "Example: E-Commerce Data Analysis. Cassandra stores customer transactions; Hadoop reads transaction records; MapReduce analyzes purchase patterns; Reducer calculates total sales; results are stored in HDFS; Hive can query processed results.\nAdvantages: Large-scale data processing, flexible distributed storage, high availability, efficient analytics and improved scalability."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Cassandra-Hadoop Integration Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nDATA SOURCES → CASSANDRA (Data Storage) → HADOOP CONNECTOR → MAPREDUCE (Mapper → Reducer) → HDFS → DATA ANALYTICS → FINAL OUTPUT.",
+                "image_url": "https://images.openai.com/static-rsc-4/kFK0lhix2g5kIROE2aOOcnTOFeaelSvcoagnKciBAlDMRKALZnvwkJle0M66pkeo0RZIUCMN3WdCwY_ONQQ2W2xe01MhwxFA8Xv-lJeryLFIhToxGu-8ApakqYbscx3b7CLynuB5TMU3SlU9FXCiok_EzJqGW8J5Muj8e_o-_U9E_kcRTMZhFy850Qc2S3S1?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U4_Q4",
+          "topic": "Hadoop Streaming and Pipes",
+          "question": null,
+          "subtopics": [
+            "Definition of Hadoop Streaming and Pipes",
+            "Hadoop Streaming Architecture",
+            "Hadoop Streaming Working Process",
+            "Mapper and Reducer Implementation",
+            "Hadoop Pipes Architecture and Working",
+            "Applications and Advantages",
+            "Hadoop Streaming and Pipes Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Hadoop Streaming and Pipes",
+                "content": "Hadoop Streaming is a Hadoop utility that allows users to create MapReduce applications using executable programs written in languages such as Python, Ruby and Perl.\nHadoop Pipes is a C++ API that allows developers to write Hadoop MapReduce applications using C++.\nBoth support MapReduce application development beyond Java."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Hadoop Streaming Architecture",
+                "content": "Hadoop Streaming uses standard input and standard output to communicate with Mapper and Reducer programs.\nComponents: Input Data in HDFS; Mapper Script; Reducer Script; Standard Input; Standard Output; Hadoop Framework manages task execution."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Hadoop Streaming Working Process",
+                "content": "Steps: Input data is stored in HDFS; Hadoop divides data into input splits; Mapper executable receives records through standard input; Mapper generates intermediate key-value pairs through standard output; Hadoop performs shuffle and sort; Reducer receives grouped records; final output is stored in HDFS."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Mapper and Reducer Implementation",
+                "content": "Mapper and Reducer can be written in different scripting languages. Input is received through standard input; output is generated through standard output; key-value pairs are separated using delimiters, commonly tab characters.\nExample input: Big Data Big Data. Mapper output: (Big,1), (Data,1), (Big,1), (Data,1). Reducer output: (Big,2), (Data,2).\nOriginal Mapper and Reducer scripts are included in the programs array."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Hadoop Pipes Architecture and Working",
+                "content": "Hadoop Pipes provides a C++ API for writing Mapper and Reducer programs.\nWorking: Developer writes C++ Mapper and Reducer classes; C++ program communicates with Hadoop using the Pipes interface; Hadoop launches the application on worker nodes; Mapper processes input records; Reducer processes grouped key-value pairs; final results are stored in HDFS.\nFeatures: C++ application development, distributed processing, communication between Hadoop and C++ programs and use of Hadoop MapReduce framework."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Applications and Advantages",
+                "content": "Applications: Log file analysis, word counting, large-scale text processing, data filtering and scientific data analysis.\nAdvantages: Supports multiple programming languages; reuses existing code; simplifies MapReduce development; supports distributed processing; reduces dependence on Java programming."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Hadoop Streaming and Pipes Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nINPUT DATA / HDFS → HADOOP STREAMING (Python/scripts) OR HADOOP PIPES (C++) → MAPPER → REDUCER → FINAL OUTPUT / HDFS.",
+                "image_url": "https://images.openai.com/static-rsc-4/86aazAuom7EwJgpKnOqZvDKq5f76WyRT8nyHWb2pIzNhdcjcCAvzQiSs9RDxiNadIeqjXlhbk74QqeGQQW5ti6uc1OJD8g2yaB5x8Ph62d7it1HVzEXKuY85n2oj7B65gAeCmDNheEYNRkY2LkmAXvzL8p6vaQhezB107vD_PTH6OTId6XYTQgloFlQvjyBB?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "unit_name": "Hadoop Related Tools",
+      "questions": [
+        {
+          "question_id": "U5_Q1",
+          "topic": "HBase Architecture and MapReduce Integration",
+          "question": null,
+          "subtopics": [
+            "Definition of HBase",
+            "HBase Architecture Components",
+            "HBase Data Model and Storage",
+            "HBase Operations and Working",
+            "HBase vs Traditional Relational Database",
+            "HBase Integration with MapReduce",
+            "HBase Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of HBase",
+                "content": "Apache HBase is an open-source, distributed, column-family NoSQL database built on top of HDFS. It is used to store and retrieve large amounts of sparse data in real time.\nFeatures: Distributed storage, horizontal scalability, fault tolerance, random read and write access and strong consistency at row level."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "HBase Architecture Components",
+                "content": "Important components:\n- HMaster: Manages the HBase cluster and assigns regions.\n- RegionServer: Handles read and write requests.\n- ZooKeeper: Coordinates distributed services.\n- HDFS: Provides distributed data storage.\n- Region: A portion of an HBase table.\n- WAL: Write-Ahead Log used for recovery."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "HBase Data Model and Storage",
+                "content": "HBase uses a column-family data model.\n- Table: Collection of rows.\n- Row Key: Unique identifier for each row.\n- Column Family: Group of related columns.\n- Column Qualifier: Identifies an individual column.\n- Cell: Stores a value with a timestamp.\n- Timestamp: Maintains different versions of data.\nExample: row 101, name Raja, department AI&DS; row 102, name Kumar, department CSE."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "HBase Operations and Working",
+                "content": "Operations: create, put, get, scan, delete and disable.\nExample commands:\n```text\ncreate 'students', 'details'\nput 'students', '101', 'details:name', 'Raja'\nget 'students', '101'\nscan 'students'\ndelete 'students', '101', 'details:name'\n```\nWorking: Client sends request; ZooKeeper helps locate RegionServer; RegionServer processes request; data is accessed through MemStore or BlockCache; data is stored persistently in HFiles on HDFS."
+              },
+              {
+                "subtopic_number": 5,
+                "title": "HBase vs Traditional Relational Database",
+                "content": "HBase vs Relational Database:\n- HBase: NoSQL; column-family model; flexible columns; distributed storage; handles massive sparse data; horizontal scalability; no traditional SQL joins.\n- Relational Database: SQL database; relational tables; fixed schema; commonly centralized or distributed; suitable for structured data; often uses vertical scaling; supports SQL joins."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "HBase Integration with MapReduce",
+                "content": "Steps: HBase stores large datasets; MapReduce connects to HBase tables; Mapper reads records from HBase; Mapper generates intermediate key-value pairs; Reducer processes and aggregates data; results are written to HBase or HDFS.\nApplications: Customer behaviour analysis, log processing, financial data analysis and large-scale reporting."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "HBase Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nCLIENT → ZOOKEEPER → HMASTER (Region Assignment) → REGIONSERVERS → MEMSTORE / HFILES → HDFS.",
+                "image_url": "https://images.openai.com/static-rsc-4/Wn36rLqf5jmMOfei3PwU6Tx6t5RypArGpr536aXHcQL0SCT2EA70c7C-67igo_tdWXHbccKJOzYU6I4Yp1Yp4azbqX4YzCj33vUTZ4EOD4R6hm1yUkfBPb_XxEAm1n-PeXP-N0bmjc04A47-1uzx7tibilcj-QFPNcFp-pah1TCiGOtqsBN9EXgV8bDiL5eD?purpose=fullsize"
+              }
+            ],
+            "programs": []
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U5_Q2",
+          "topic": "Hive Architecture and Working",
+          "question": null,
+          "subtopics": [
+            "Definition of Apache Hive",
+            "Hive Architecture Components",
+            "Hive Metastore and Query Processor",
+            "Hive Query Execution Process",
+            "Hive Data Storage and File Formats",
+            "Applications and Advantages of Hive",
+            "Hive Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Apache Hive",
+                "content": "Apache Hive is a data warehouse infrastructure built on Hadoop that is used to query, manage and analyze large datasets. It provides an SQL-like language called Hive Query Language (HQL).\nFeatures: SQL-like querying, distributed data processing, data warehousing, large-scale data analysis and integration with Hadoop."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Hive Architecture Components",
+                "content": "Major components:\n- User Interface: Accepts user queries.\n- Driver: Manages query execution.\n- Compiler: Converts HQL into an execution plan.\n- Optimizer: Optimizes the execution plan.\n- Execution Engine: Executes the processing tasks.\n- Metastore: Stores metadata.\n- HDFS: Stores actual data."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Hive Metastore and Query Processor",
+                "content": "Metastore: Stores table information; maintains column names and data types; stores partition details; maintains database and schema information; usually uses a relational database to store metadata.\nQuery Processor: Receives HQL queries; parses and checks queries; generates execution plans; optimizes queries; sends tasks to the execution engine."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Hive Query Execution Process",
+                "content": "Steps: User submits HQL query; Driver receives query; Compiler parses query; Metastore provides metadata; Optimizer improves execution plan; Execution Engine runs tasks using Hadoop processing frameworks; results are returned to user.\nExample:\n```sql\nCREATE TABLE students (roll_no INT, name STRING, department STRING);\nSELECT * FROM students;\nSELECT department, COUNT(*) FROM students GROUP BY department;\n```"
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Hive Data Storage and File Formats",
+                "content": "Hive stores data in HDFS.\n- TextFile: Plain text storage.\n- SequenceFile: Binary key-value format.\n- ORC: Optimized columnar format.\n- Parquet: Columnar storage format.\n- Avro: Schema-based serialization.\nPartitioning divides table data based on partition columns. Bucketing divides data into fixed groups using hash functions."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "Applications and Advantages of Hive",
+                "content": "Applications: Data warehousing, log analysis, business intelligence, customer data analysis and report generation.\nAdvantages: Easy SQL-like queries, handles large datasets, integrates with Hadoop, supports multiple file formats and provides scalable data analysis."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Hive Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nUSER/CLIENT → HIVE UI → DRIVER → COMPILER → OPTIMIZER → METASTORE / EXECUTION ENGINE → MAPREDUCE OR TEZ → HDFS → FINAL RESULT.",
+                "image_url": "https://images.openai.com/static-rsc-4/2nvwElnj3SYj939M3mXpWcmXPRikJHeetH_M6jHQ87MdajrJ5Z0f69nOzBi5pcHI7G5HUBi9IGBX-Sbg2EOFYi8smBQcrFxFPSbk5D_1RrKgqFwVEffSs4F3dCGZ3CI7i6dwXikl8bLuZDo8YlhGZX96bBiXo6p_ft2VB7JU9dVxkqZvP6uhsWxHPlaKGUFo?purpose=fullsize"
+              }
+            ],
+            "programs": [
+              {
+                "program_id": "U5_Q2_P1",
+                "title": "Hive Query Execution Process",
+                "language": "sql",
+                "original_code": "CREATE TABLE students (roll_no INT, name STRING, department STRING);\nSELECT * FROM students;\nSELECT department, COUNT(*) FROM students GROUP BY department;",
+                "simplified_code": "CREATE TABLE students (roll_no INT, name STRING, department STRING);\nSELECT * FROM students;\nSELECT department, COUNT(*) FROM students GROUP BY department;",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              }
+            ]
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U5_Q3",
+          "topic": "Spark Stack Architecture",
+          "question": null,
+          "subtopics": [
+            "Definition of Apache Spark",
+            "Spark Stack Architecture",
+            "Spark Core",
+            "Spark SQL and Structured Data Processing",
+            "Spark Streaming and MLlib",
+            "GraphX and Spark Applications",
+            "Five-Layer Spark Stack Architecture Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Apache Spark",
+                "content": "Apache Spark is an open-source, distributed computing framework used for fast processing and analysis of large datasets. It supports batch processing, real-time streaming, machine learning and graph processing.\nFeatures: In-memory computing, fast data processing, fault tolerance, distributed computing and multiple language support."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Spark Stack Architecture",
+                "content": "The Spark stack consists of different components that support distributed data processing. Important layers: Spark Core, Spark SQL, Spark Streaming, MLlib and GraphX. These components work on top of Spark Core."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Spark Core",
+                "content": "Spark Core is the foundation of the Apache Spark framework.\nFunctions: Task scheduling, memory management, distributed execution, fault recovery and RDD management.\nRDD (Resilient Distributed Dataset): A fault-tolerant collection of data distributed across multiple nodes."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Spark SQL and Structured Data Processing",
+                "content": "Spark SQL is used to process structured and semi-structured data.\nFeatures: SQL query processing, DataFrame support, Dataset support, structured data analysis and integration with Hive.\nExample:\n```python\ndf = spark.read.csv(\"students.csv\", header=True, inferSchema=True)\ndf.show()\n```"
+              },
+              {
+                "subtopic_number": 5,
+                "title": "Spark Streaming and MLlib",
+                "content": "Spark Streaming: Processes continuous data streams; supports real-time analytics; integrates with Kafka; processes sensor and log data.\nMLlib: Provides machine learning algorithms; supports classification, regression, clustering and model evaluation."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "GraphX and Spark Applications",
+                "content": "GraphX is a Spark component used for graph processing and analysis.\nFunctions: Graph construction, graph computation, relationship analysis and graph algorithms.\nApplications of Spark: Fraud detection, recommendation systems, real-time monitoring, social network analysis, machine learning and Big Data analytics."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Five-Layer Spark Stack Architecture Diagram",
+                "content": "Exam-friendly block diagram:\nSPARK STACK: SPARK SQL / STREAMING / MLLIB / GRAPHX → SPARK CORE → CLUSTER MANAGER → DISTRIBUTED STORAGE (HDFS).",
+                "image_url": "https://images.openai.com/static-rsc-4/y-SDnbOCJCcTedA-ZNb9I6lqJypwUYK05KNLmLnB_o5cv89O0R-Jf4PWR_5hjRFu9FV8B6iVpwzfFlXTcE57ZCseqr7ehXOhN4hJ5w57Ddu8NFd_C2ptHnss3sRT0VAiJU_KQ5P9QClELSVwiqda3_kxSca9LyjdAGxmt0rwvilvHXVop3MzZmnPfOXeXymT?purpose=fullsize"
+              }
+            ],
+            "programs": [
+              {
+                "program_id": "U5_Q3_P1",
+                "title": "Spark SQL and Structured Data Processing",
+                "language": "python",
+                "original_code": "df = spark.read.csv(\"students.csv\", header=True, inferSchema=True)\ndf.show()",
+                "simplified_code": "df = spark.read.csv(\"students.csv\", header=True, inferSchema=True)\ndf.show()",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              }
+            ]
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        },
+        {
+          "question_id": "U5_Q4",
+          "topic": "Hive and Pig Data Models",
+          "question": null,
+          "subtopics": [
+            "Definition of Hive and Pig",
+            "Hive Data Types",
+            "Hive File Formats",
+            "Hive Query Language (HQL)",
+            "HQL Data Manipulation Operations",
+            "HBase and Pig Data Models – Comparison",
+            "Hive and Pig Data Model Diagram"
+          ],
+          "answer": {
+            "sections": [
+              {
+                "subtopic_number": 1,
+                "title": "Definition of Hive and Pig",
+                "content": "Apache Hive is a Hadoop-based data warehouse tool used to query and analyze large datasets using HQL. Apache Pig is a high-level data processing platform that uses a scripting language called Pig Latin to process large datasets. Both simplify Big Data processing."
+              },
+              {
+                "subtopic_number": 2,
+                "title": "Hive Data Types",
+                "content": "Hive supports two major categories of data types.\nPrimitive: TINYINT (small integer), INT (integer), BIGINT (large integer), FLOAT, DOUBLE, STRING, BOOLEAN, DATE and TIMESTAMP.\nComplex: ARRAY (collection of values), MAP (key-value pairs), STRUCT (group of named fields) and UNIONTYPE (one value from multiple permitted types)."
+              },
+              {
+                "subtopic_number": 3,
+                "title": "Hive File Formats",
+                "content": "Hive supports different file formats:\n- TextFile: Plain text.\n- SequenceFile: Binary key-value.\n- ORC: Optimized columnar.\n- Parquet: Columnar storage.\n- Avro: Schema-based format.\nAdvantages of columnar formats: Better compression, faster analytical queries, reduced disk I/O and efficient data scanning."
+              },
+              {
+                "subtopic_number": 4,
+                "title": "Hive Query Language (HQL)",
+                "content": "HQL (Hive Query Language) is an SQL-like language used to create, retrieve, modify and manage data stored in Hive.\nCommands: CREATE (creates database or table), LOAD (loads data), SELECT (retrieves records), INSERT (inserts records), UPDATE/DELETE (modify or delete records where supported), DROP (removes database or table).\nExample:\n```sql\nCREATE TABLE students (roll_no INT, name STRING, department STRING);\nSELECT * FROM students;\nINSERT INTO students VALUES (101, 'Raja', 'AI&DS');\n```"
+              },
+              {
+                "subtopic_number": 5,
+                "title": "HQL Data Manipulation Operations",
+                "content": "Data Manipulation Language (DML) is used to manage records in Hive tables.\nLOAD DATA:\n```sql\nLOAD DATA LOCAL INPATH '/home/students.csv' INTO TABLE students;\n```\nINSERT:\n```sql\nINSERT INTO TABLE students VALUES (102, 'Kumar', 'CSE');\n```\nSELECT:\n```sql\nSELECT * FROM students;\n```\nUPDATE:\n```sql\nUPDATE students SET department = 'AI&DS' WHERE roll_no = 101;\n```\nDELETE:\n```sql\nDELETE FROM students WHERE roll_no = 102;\n```\nNote: Hive UPDATE and DELETE require suitable transactional table configuration, commonly ACID/transactional ORC tables."
+              },
+              {
+                "subtopic_number": 6,
+                "title": "HBase and Pig Data Models – Comparison",
+                "content": "HBase Data Model: Stores data in tables; uses row keys; groups columns into column families; supports multiple column qualifiers; stores timestamped cell values.\nPig Data Model: Atom (single value), Tuple (ordered collection of fields), Bag (collection of tuples), Map (key-value pairs) and Relation (collection of tuples).\nComparison: HBase is a column-family database for persistent data, using row keys and column families. Pig is a data processing model for datasets, using tuples and bags."
+              },
+              {
+                "subtopic_number": 7,
+                "title": "Hive and Pig Data Model Diagram",
+                "content": "Exam-friendly block diagram:\nBIG DATA TOOLS → HIVE (HQL QUERIES → DATA ANALYSIS) / PIG (PIG LATIN → DATA PROCESSING) → HADOOP/HDFS.\nPig model: ATOM, TUPLE, BAG, MAP.",
+                "image_url": "https://images.openai.com/static-rsc-4/9aqN9t6Fp4xVcugHbZFab0xftcs52UuuCegqe3-cj4MoupdftnMwfuHFXZrb5IwSldSUlS3An0ucqccU9UwaIhpgzKo8BfEGcG2RxKuiqcRCgW1wtDccPu7nwVHZbGvQQ8RrKdcR6Ei8PDeTALSr2QObWGs_eM_JJhPAbvB2wAefXM0DtMb6xTCDUAYvFSMb?purpose=fullsize"
+              }
+            ],
+            "programs": [
+              {
+                "program_id": "U5_Q4_P1",
+                "title": "Hive Query Language (HQL)",
+                "language": "sql",
+                "original_code": "CREATE TABLE students (roll_no INT, name STRING, department STRING);\nSELECT * FROM students;\nINSERT INTO students VALUES (101, 'Raja', 'AI&DS');",
+                "simplified_code": "CREATE TABLE students (roll_no INT, name STRING, department STRING);\nSELECT * FROM students;\nINSERT INTO students VALUES (101, 'Raja', 'AI&DS');",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U5_Q4_P2",
+                "title": "HQL Data Manipulation Operations",
+                "language": "sql",
+                "original_code": "INSERT INTO TABLE students VALUES (102, 'Kumar', 'CSE');",
+                "simplified_code": "INSERT INTO TABLE students VALUES (102, 'Kumar', 'CSE');",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U5_Q4_P3",
+                "title": "HQL Data Manipulation Operations",
+                "language": "sql",
+                "original_code": "SELECT * FROM students;",
+                "simplified_code": "SELECT * FROM students;",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U5_Q4_P4",
+                "title": "HQL Data Manipulation Operations",
+                "language": "sql",
+                "original_code": "UPDATE students SET department = 'AI&DS' WHERE roll_no = 101;",
+                "simplified_code": "UPDATE students SET department = 'AI&DS' WHERE roll_no = 101;",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              },
+              {
+                "program_id": "U5_Q4_P5",
+                "title": "HQL Data Manipulation Operations",
+                "language": "sql",
+                "original_code": "DELETE FROM students WHERE roll_no = 102;",
+                "simplified_code": "DELETE FROM students WHERE roll_no = 102;",
+                "simplification_note": "Original code retained; no safe 3–4-line simplification was applied where it could alter behavior or omit required setup."
+              }
+            ]
+          },
+          "ui_config": {
+            "program_panel": {
+              "enabled": true,
+              "display": "separate_panel",
+              "fields": [
+                "title",
+                "language",
+                "simplified_code",
+                "original_code"
+              ],
+              "show_output_separately": true,
+              "code_preservation": "Do not modify program behavior or expected output."
+            },
+            "content_rendering": {
+              "section_order": "subtopic_number_ascending",
+              "render_images": true,
+              "image_source": "answer.sections[].image_url",
+              "render_exam_diagram_text": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
